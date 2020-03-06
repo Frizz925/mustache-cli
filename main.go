@@ -10,7 +10,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		printError("Usage: mustache-cli <template-file>")
+		printError("Usage: mustache <template-file>")
 		os.Exit(1)
 	}
 	err := run(os.Args[1])
