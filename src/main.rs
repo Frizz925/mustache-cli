@@ -9,7 +9,7 @@ use yaml_rust::YamlLoader;
 fn main() {
     let args: Vec<String> = env::args().collect();
     if args.len() < 2 {
-        let message = "Usage: mustache <template-file>";
+        let message = "Usage: mustache <template-file>\r\n";
         io::stderr().write_all(message.as_bytes()).unwrap();
         process::exit(1);
     }
