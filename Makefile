@@ -2,6 +2,8 @@ BINARY_TARGET := x86_64-unknown-linux-gnu
 BINARY_NAME := mustache-cli
 OUT_DIR := target/$(BINARY_TARGET)/release
 
+default: test build
+
 test:
 	tests/test.sh
 
