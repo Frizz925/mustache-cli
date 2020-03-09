@@ -8,4 +8,4 @@ test:
 build:
 	cargo build --target $(BINARY_TARGET) --release
 	strip $(OUT_DIR)/$(BINARY_NAME)
-	cp $(OUT_DIR)/$(BINARY_NAME) target/release/$(BINARY_NAME)
+	cp $(OUT_DIR)/$(BINARY_NAME) target/release/mustache
