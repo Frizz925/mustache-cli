@@ -1,0 +1,15 @@
+[package]
+name = "mustache-cli"
+version = "0.1.0"
+authors = ["Izra Faturrahman <Frizz925@hotmail.com>"]
+edition = "2018"
+
+[profile.release]
+codegen-units = 1
+opt-level = 'z'
+lto = true
+panic = 'abort'
+
+[dependencies]
+mustache = "*"
+yaml-rust = "0.4"

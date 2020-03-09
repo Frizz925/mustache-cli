@@ -1,0 +1,1 @@
+Simple mustache template with Foo as first value and Bar as second value
